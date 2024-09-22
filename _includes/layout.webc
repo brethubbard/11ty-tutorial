@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous"
+    webc:keep>
+  <style webc:keep>
+    .container {
+      margin-top: 25px;
+    }
+  </style>
+  <style @raw="getBundle('css')" webc:keep></style>
+  <script @raw="getBundle('js')" webc:keep></script>
+</head>
+
+<body data-bs-theme="dark">
+
+  <div class="container">
+    <a href="/accordions" class="btn btn-primary">Accordions</a>
+    <a href="/alerts" class="btn btn-primary">Alerts</a>
+    <a href="/badges" class="btn btn-primary">Badges</a>
+    <a href="/cards" class="btn btn-primary">Cards</a>
+  </div>
+  <div class="container" @raw="content">
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"
+    webc:keep></script>
+</body>
+
+</html>

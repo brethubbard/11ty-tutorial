@@ -1,0 +1,15 @@
+---
+layout: "layout.webc"
+---
+
+<bs-badge>
+    Default badge
+</bs-badge>
+
+<bs-badge badgetype="secondary">
+    Secondary badge
+</bs-badge>
+
+<bs-badge badgetype="success">
+    Success badge
+</bs-badge>
