@@ -2,13 +2,16 @@
   {
     "src": "https://picsum.photos/500?random=1",
     "title": "Card 1",
-    "description": "Here is a card"
+    "description": "Here is a card",
+    "button": {
+      "text": "Click me",
+      "url": "https://example.com"
+    }
   },
   {
     "src": "https://picsum.photos/500?random=2",
     "title": "Card 2",
-    "description": "Here is another card",
-    "link": "#"
+    "description": "Here is another card"
   },
   {
     "src": "https://picsum.photos/500?random=3",
@@ -18,8 +21,7 @@
   {
     "src": "https://picsum.photos/500?random=4",
     "title": "Card 4",
-    "description": "Here is another card",
-    "link": "#"
+    "description": "Here is another card"
   },
   {
     "src": "https://picsum.photos/500?random=5",
@@ -29,7 +31,6 @@
   {
     "src": "https://picsum.photos/500?random=6",
     "title": "Card 6",
-    "description": "Here is another card",
-    "link": "#"
+    "description": "Here is another card"
   }
 ]
